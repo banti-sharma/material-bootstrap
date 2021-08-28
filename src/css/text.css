@@ -1,0 +1,48 @@
+.text-light-primary {
+  color: #0f1d31;
+}
+.text-light-secondary {
+  color: #6e7784;
+}
+.text-light-body {
+  color: #565759;
+}
+.text-light-body-focus {
+  color: #242426;
+}
+.text-light-link {
+  color: #1974b5;
+}
+.form-light-label {
+  color: #6e7784;
+}
+.form-light-hint {
+  color: #9a9a9b;
+}
+.form-light-body {
+  color: #565759;
+}
+.text-dark-primary {
+  color: #f0f0f0;
+}
+.text-dark-secondary {
+  color: #9ca1ad;
+}
+.text-dark-body {
+  color: #f0f0f0;
+}
+.text-dark-body-focus {
+  color: #fff;
+}
+.text-dark-link {
+  color: #2d9dd6;
+}
+.form-dark-label {
+  color: #9ca1ad;
+}
+.form-dark-hint {
+  color: #9ca1ad;
+}
+.form-dark-body {
+  color: #f0f0f0;
+}

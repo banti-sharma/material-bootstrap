@@ -1,0 +1,254 @@
+.notification {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  left: -1px;
+  z-index: 50;
+  text-align: center;
+  height: 0;
+}
+.notification.in {
+  bottom: -1px;
+}
+.notification.hide {
+  display: none;
+}
+.notification.hide .notification-body {
+  transition: all 150ms ease-in-out;
+  overflow: hidden;
+  padding: 0 8px;
+  height: 0;
+}
+.notification.hide.in {
+  display: block;
+}
+.notification.hide.in .notification-body {
+  padding: 3px 8px;
+  height: 22px;
+}
+.notification.hide.in.notification-bar .notification-body {
+  height: auto;
+}
+.notification.fade {
+  display: block !important;
+}
+.notification:before {
+  transition: all 150ms ease-in-out;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  z-index: 49;
+  height: 3px;
+  border-radius: 1px 1px 0 0;
+  background-color: #d7d9de;
+  content: "";
+}
+.notification .bg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 48;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.notification.fade .bg {
+  bottom: auto;
+}
+.notification.fade.in .bg {
+  bottom: 0;
+}
+.notification .notification-body {
+  position: relative;
+  z-index: 50;
+  display: inline-block;
+  border-radius: 0 0 4px 4px;
+  background-color: #d7d9de;
+  color: white;
+  vertical-align: top;
+  font-size: 0px;
+}
+.notification .notification-body a {
+  display: inline-block;
+  color: white;
+}
+.notification .notification-body .text {
+  display: inline-block;
+  overflow: hidden;
+  height: 16px;
+  vertical-align: middle;
+  white-space: nowrap;
+  line-height: 16px;
+}
+.notification .notification-body .text i {
+  margin-top: -2px !important;
+}
+.notification .notification-body .text.hide {
+  transition: all 400ms ease-in-out 125ms;
+  max-width: 0;
+  opacity: 0;
+}
+.notification .notification-body .text.hide.in {
+  max-width: 1000px;
+  opacity: 1;
+}
+.notification .notification-body:hover {
+  cursor: pointer;
+}
+.notification .notification-body:hover .text.hide {
+  max-width: 1000px;
+  opacity: 1;
+}
+.notification.alert:before {
+  background-color: #bf243f;
+}
+.notification.alert .notification-body {
+  background-color: #bf243f;
+}
+.notification.warning:before {
+  background-color: #f9ba3a;
+}
+.notification.warning .notification-body {
+  color: #242426;
+  background-color: #f9ba3a;
+}
+.notification.confirmation:before {
+  background-color: #06914d;
+}
+.notification.confirmation .notification-body {
+  background-color: #06914d;
+}
+.notification.info:before {
+  background-color: #3b88cf;
+}
+.notification.info .notification-body {
+  background-color: #3b88cf;
+}
+.notification-bar {
+  position: relative;
+  top: -1px;
+  right: 0;
+  left: 0;
+  text-align: left;
+}
+.notification-bar:before {
+  position: relative;
+  display: block;
+  height: 2px;
+  background-color: #d7d9de;
+}
+.notification-bar:after {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  z-index: 50;
+  height: 34px;
+  width: 34px;
+  background-color: transparent;
+  background-position: -20000px -20000px;
+  background-repeat: no-repeat;
+  content: "";
+}
+.notification-bar .notification-body {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 40px !important;
+  min-height: 34px !important;
+  height: auto;
+  border-radius: 0 0 2px 2px;
+  background: #fff;
+}
+.notification-bar .notification-body:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 34px;
+  height: 100%;
+  background-color: #d7d9de;
+  content: "";
+}
+.notification-bar .notification-body:after {
+  position: absolute;
+  top: 10px;
+  left: 34px;
+  display: block;
+  width: 6px;
+  height: 0px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #d7d9de;
+  content: "";
+}
+.notification-bar .notification-body .text {
+  display: inline-block;
+  overflow: visible;
+  padding: 9px 8px 5px 8px;
+  height: auto;
+  height: auto;
+  color: #0f1d31;
+  line-height: 15px;
+  white-space: normal;
+  padding-bottom: 10px;
+}
+.notification-bar .notification-body .text-info {
+  top: 0;
+  left: 50px;
+  float: right;
+  padding: 9px 8px 5px 8px;
+  color: #6e7784;
+  vertical-align: middle;
+  line-height: 15px;
+}
+.notification-bar.alert:after {
+  background-position: -2px -204px;
+}
+.notification-bar.alert .notification-body {
+  background-color: #fff;
+}
+.notification-bar.alert .notification-body:before {
+  background-color: #bf243f;
+}
+.notification-bar.alert .notification-body:after {
+  border-left-color: #bf243f;
+}
+.notification-bar.warning:after {
+  background-position: -122px -204px;
+}
+.notification-bar.warning .notification-body {
+  background-color: #fff;
+}
+.notification-bar.warning .notification-body:before {
+  background-color: #f9ba3a;
+}
+.notification-bar.warning .notification-body:after {
+  border-left-color: #f9ba3a;
+}
+.notification-bar.confirmation:after {
+  background-position: -83px -204px;
+}
+.notification-bar.confirmation .notification-body {
+  background-color: #fff;
+}
+.notification-bar.confirmation .notification-body:before {
+  background-color: #06914d;
+}
+.notification-bar.confirmation .notification-body:after {
+  border-left-color: #06914d;
+}
+.notification-bar.info:after {
+  background-position: -42px -204px;
+}
+.notification-bar.info .notification-body {
+  background-color: #fff;
+}
+.notification-bar.info .notification-body:before {
+  background-color: #3b88cf;
+}
+.notification-bar.info .notification-body:after {
+  border-left-color: #3b88cf;
+}

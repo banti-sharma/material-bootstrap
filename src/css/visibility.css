@@ -1,0 +1,56 @@
+.fade {
+  transition: opacity 250ms ease-in-out;
+  opacity: 0;
+}
+.fade.in {
+  opacity: 1;
+}
+.collapse {
+  transition: height 250ms ease-in-out;
+  position: relative;
+  overflow: hidden;
+  height: 0px;
+}
+.collapse.in {
+  height: auto;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.invisible {
+  visibility: hidden;
+}
+.clearfix,
+.clear-fix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after,
+.clear-fix:before,
+.clear-fix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after,
+.clear-fix:after {
+  clear: both;
+}
+.align-left,
+.left {
+  text-align: left;
+}
+.align-center,
+.center {
+  text-align: center;
+}
+.align-right,
+.right {
+  text-align: right;
+}
+.fill-height {
+  height: 100% !important;
+}

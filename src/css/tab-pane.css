@@ -1,0 +1,21 @@
+.tab-pane {
+  display: none;
+  text-align: left;
+}
+.tab-pane.active {
+  display: block;
+}
+.tabs-wrapper.fill-height {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto !important;
+}
+.tabs-wrapper.fill-height .tab-pane {
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  width: 100%;
+}

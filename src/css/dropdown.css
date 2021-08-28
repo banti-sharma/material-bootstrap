@@ -1,0 +1,163 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1px;
+}
+.dropdown .dropdown-menu {
+  min-width: 120px;
+}
+.dropdown > .dropdown-menu {
+  position: absolute;
+  display: none;
+  margin-top: 2px;
+  margin-left: 1px;
+  min-width: 100%;
+  min-width: calc(100% - 2px);
+}
+.navbar .dropdown > .dropdown-menu {
+  margin-left: 0px;
+  min-width: 100%;
+}
+.dropdown.open > .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  position: relative;
+  z-index: 500;
+  display: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  list-style: none;
+  vertical-align: middle;
+  line-height: 24px;
+  color: #0f1d31;
+}
+.dropdown-menu li a {
+  position: relative;
+  display: block;
+  padding: 0 16px 0 14px;
+  outline: none;
+  color: #565759;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.dropdown-menu li a .infospace,
+.dropdown-menu li a .infospacesmall {
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 32px;
+  width: 100px;
+  height: 0px;
+  background: red;
+  color: #999999;
+}
+.dropdown-menu li a .infospacesmall {
+  width: 43px;
+}
+.dropdown-menu li a .info {
+  position: absolute;
+  right: 16px;
+  color: #999999;
+}
+.dropdown-menu li a:focus {
+  background: #298dd8;
+  color: #fff;
+}
+.dropdown-menu li a:focus .info {
+  color: #d4e8f8;
+}
+.dropdown-menu li:first-of-type {
+  margin-top: 6px;
+}
+.dropdown-menu li:last-of-type {
+  margin-bottom: 6px;
+}
+.dropdown-menu li:hover,
+.dropdown-menu li.active,
+.dropdown-menu li.hover {
+  background: #298dd8;
+}
+.dropdown-menu li:hover > a,
+.dropdown-menu li.active > a,
+.dropdown-menu li.hover > a {
+  color: #fff;
+}
+.dropdown-menu li:hover > a .info,
+.dropdown-menu li.active > a .info,
+.dropdown-menu li.hover > a .info {
+  color: #d4e8f8;
+}
+.dropdown-menu li:hover > .dropdown-menu,
+.dropdown-menu li.active > .dropdown-menu,
+.dropdown-menu li.hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-menu li.active {
+  background: #1974b5;
+}
+.dropdown-menu li.active a {
+  background: #1974b5;
+}
+.dropdown-menu li.separator {
+  margin: 6px 0;
+  height: 1px;
+  background: #e6e7e8;
+}
+.dropdown-menu li.disabled.active,
+.dropdown-menu li.disabled.hover,
+.dropdown-menu li.disabled:hover,
+.dropdown-menu li.disabled:focus {
+  background-color: transparent;
+}
+.dropdown-menu li.disabled > a,
+.dropdown-menu li.disabled > a:focus {
+  cursor: default;
+  color: #999999;
+  background: transparent;
+  pointer-events: none;
+}
+.dropdown-submenu {
+  position: relative;
+  min-width: 100px;
+}
+.dropdown-submenu:before {
+  position: absolute;
+  right: -10px;
+  left: 0px;
+  height: 24px;
+  background: transparent;
+  content: "";
+  cursor: default;
+}
+.dropdown-submenu > a {
+  position: relative;
+  cursor: default;
+  pointer-events: none;
+}
+.dropdown-submenu > a:after {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(images/sprites/sprite.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  content: "";
+}
+.dropdown-submenu > .dropdown-menu {
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  display: none;
+  margin-top: -6px;
+  margin-left: 2px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}

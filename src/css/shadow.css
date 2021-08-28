@@ -1,0 +1,131 @@
+.shadow-all-inset {
+  box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-inset {
+  box-shadow: inset 0 5px 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-right-inset {
+  box-shadow: inset -5px 0 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-bottom-inset {
+  box-shadow: inset 0 -5px 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-left-inset {
+  box-shadow: inset 5px 0 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-right-inset {
+  box-shadow: inset 0 5px 5px -3px rgba(0, 0, 0, 0.5),
+    inset -5px 0 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-right-bottom-inset {
+  box-shadow: inset 0 5px 5px -3px rgba(0, 0, 0, 0.5),
+    inset -5px 0 5px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-right-left-inset {
+  box-shadow: inset 0 5px 5px -3px rgba(0, 0, 0, 0.5),
+    inset -5px 0 5px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-bottom-inset {
+  box-shadow: inset 0 5px 5px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-bottom-left-inset {
+  box-shadow: inset 0 5px 5px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 5px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-left-inset {
+  box-shadow: inset 0 5px 5px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-right-bottom-inset {
+  box-shadow: inset -5px 0 5px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-right-bottom-left-inset {
+  box-shadow: inset -5px 0 5px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 5px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-right-left-inset {
+  box-shadow: inset -5px 0 5px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-bottom-left-inset {
+  box-shadow: inset 0 -5px 5px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 5px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-all-inset-large {
+  box-shadow: inset 0 0 15px 2px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-inset-large {
+  box-shadow: inset 0 5px 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-right-inset-large {
+  box-shadow: inset -5px 0 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-bottom-inset-large {
+  box-shadow: inset 0 -5px 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-left-inset-large {
+  box-shadow: inset 5px 0 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-right-inset-large {
+  box-shadow: inset 0 5px 15px -3px rgba(0, 0, 0, 0.5),
+    inset -5px 0 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-right-bottom-inset-large {
+  box-shadow: inset 0 5px 15px -3px rgba(0, 0, 0, 0.5),
+    inset -5px 0 15px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-right-left-inset-large {
+  box-shadow: inset 0 5px 15px -3px rgba(0, 0, 0, 0.5),
+    inset -5px 0 15px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-bottom-inset-large {
+  box-shadow: inset 0 5px 15px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-bottom-left-inset-large {
+  box-shadow: inset 0 5px 15px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 15px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-top-left-inset-large {
+  box-shadow: inset 0 5px 15px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-right-bottom-inset-large {
+  box-shadow: inset -5px 0 15px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-right-bottom-left-inset-large {
+  box-shadow: inset -5px 0 15px -3px rgba(0, 0, 0, 0.5),
+    inset 0 -5px 15px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-right-left-inset-large {
+  box-shadow: inset -5px 0 15px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 15px -3px rgba(0, 0, 0, 0.5);
+}
+.shadow-bottom-left-inset-large {
+  box-shadow: inset 0 -5px 15px -3px rgba(0, 0, 0, 0.5),
+    inset 5px 0 15px -3px rgba(0, 0, 0, 0.5);
+}
+.radial-gradient-inset {
+  background-image: -webkit-radial-gradient(
+    50% 0%,
+    75% 75%,
+    #142d45,
+    #0f1d31 100%
+  );
+  background-image: radial-gradient(
+    ellipse 75% 75% at 50% 0%,
+    #142d45,
+    #0f1d31 100%
+  );
+}

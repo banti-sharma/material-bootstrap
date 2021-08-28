@@ -1,0 +1,41 @@
+.t1,
+.modal-alt > .modal-box .modal-body > p,
+.modal-alt > .modal-box .modal-body details,
+.modal-alt > .modal-box .modal-body details > p,
+h6 {
+  font-size: 11px;
+  line-height: 14px;
+}
+.t2,
+.modal-alt.alert > .modal-box .modal-body > p:first-child,
+.modal-alt.alert > .modal-box .modal-body > p.lead,
+.modal-alt.warning > .modal-box .modal-body > p:first-child,
+.modal-alt.warning > .modal-box .modal-body > p.lead,
+.modal-alt.confirmation > .modal-box .modal-body > p:first-child,
+.modal-alt.confirmation > .modal-box .modal-body > p.lead,
+.modal-alt.info > .modal-box .modal-body > p:first-child,
+.modal-alt.info > .modal-box .modal-body > p.lead,
+h5 {
+  font-size: 13px;
+  line-height: 16px;
+}
+.t3,
+h4 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.t4,
+h3 {
+  font-size: 23px;
+  line-height: 28px;
+}
+.t5,
+h2 {
+  font-size: 34px;
+  line-height: 38px;
+}
+.t6,
+h1 {
+  font-size: 40px;
+  line-height: 44px;
+}

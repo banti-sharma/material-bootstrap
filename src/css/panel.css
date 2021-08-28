@@ -1,0 +1,131 @@
+.panel {
+  position: relative;
+  color: #565759;
+}
+.panel.panel-bordered {
+  border: 1px solid #cecece;
+}
+.panel > .header {
+  background-color: #e8e9eb;
+  background-image: linear-gradient(to bottom, #f4f5f7, #dddddf);
+  background-repeat: repeat-x;
+  min-height: 39px;
+  border-bottom: 1px solid #f4f5f7;
+  line-height: 37px;
+}
+.panel > .header .pull-left,
+.panel > .header .pull-right,
+.panel > .header .push-left,
+.panel > .header .push-right {
+  margin-top: 7px;
+}
+.panel > .area {
+  overflow: hidden;
+  border-top: 1px solid #cecece;
+  background-color: #eff0f2;
+}
+.panel > .area.relative {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  width: auto;
+}
+.panel-dark {
+  color: #f0f0f0;
+}
+.panel-dark.panel-bordered {
+  border: 1px solid #334154;
+}
+.panel-dark > .header {
+  background-color: #0e1d33;
+  background-image: linear-gradient(to bottom, #0e1d33, #0e1d33);
+  background-repeat: repeat-x;
+  border-bottom: 1px solid #000000;
+  color: #fff;
+}
+.panel-dark > .area {
+  border-top: 1px solid #334154;
+  background-color: #0e1d33;
+  color: #f0f0f0;
+}
+.panel-rounded {
+  border-radius: 3px;
+}
+.panel-rounded > :first-child {
+  border-radius: 3px 3px 0 0;
+}
+.panel-rounded > :last-child {
+  border-radius: 0 0 3px 3px;
+}
+.panel-rounded-top {
+  border-radius: 3px 3px 0 0;
+}
+.panel-rounded-top > :first-child {
+  border-radius: 3px 3px 0 0;
+}
+.panel-rounded-bottom {
+  border-radius: 0 0 3px 3px;
+}
+.panel-rounded-bottom > :last-child {
+  border-radius: 0 0 3px 3px;
+}
+.panel-shadow {
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+}
+.pane-light {
+  background-color: #e6e7e8;
+  color: #565759;
+}
+.pane-light label,
+.pane-light .label {
+  color: #6e7784;
+}
+.pane-medium {
+  background-color: #263043;
+  color: #f0f0f0;
+}
+.pane-medium label,
+.pane-medium .label {
+  color: #9ca1ad;
+}
+.pane-dark {
+  background-color: #0e1d33;
+  color: #f0f0f0;
+}
+.pane-dark label,
+.pane-dark .label {
+  color: #9ca1ad;
+}
+.pane-light-colors {
+  color: #565759;
+}
+.pane-light-colors label,
+.pane-light-colors .label {
+  color: #6e7784;
+}
+.pane-medium-colors {
+  color: #f0f0f0;
+}
+.pane-medium-colors label,
+.pane-medium-colors .label {
+  color: #9ca1ad;
+}
+.pane-dark-colors {
+  color: #f0f0f0;
+}
+.pane-dark-colors label,
+.pane-dark-colors .label {
+  color: #9ca1ad;
+}
+
+.well {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  box-shadow: inset 1px 1px 0 0 white, 1px 1px 0 0 white;
+}
+.well-dark {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.05),
+    1px 1px 0 0 rgba(255, 255, 255, 0.05);
+}

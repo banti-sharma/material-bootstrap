@@ -1,0 +1,58 @@
+.toolbar {
+  display: flex;
+  white-space: nowrap;
+  padding: 8px;;
+}
+.toolbar.filled {
+  background-color: #263044;
+}
+.toolbar .toolbar-section {
+  position: relative;
+  display: inline-block;
+  padding-right: 3px;
+}
+.toolbar .toolbar-section form,
+.toolbar .toolbar-section fieldset {
+  display: inline-block;
+  margin: 0;
+  min-height: auto;
+  height: 100%;
+  vertical-align: middle;
+}
+.toolbar .toolbar-section .label-for,
+.toolbar .toolbar-section .label {
+  margin-left: 4px;
+  min-height: auto;
+}
+.toolbar .toolbar-section .controls-group {
+  margin-top: 3px;
+}
+.toolbar .toolbar-section .label {
+  position: relative;
+  top: 1px;
+  margin-left: 4px;
+  vertical-align: top;
+  white-space: nowrap;
+  display: inline-block;
+}
+.toolbar .toolbar-section .label .highlight {
+  color: white;
+}
+.toolbar .toolbar-section > * {
+  margin-right: 8px;
+}
+.toolbar .toolbar-section.hidden {
+  display: none;
+}
+.toolbar .toolbar-section:not(.hidden) ~ :not(.hidden):before {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  display: inline-block;
+  min-height: 30px;
+  width: 0px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+  content: "";
+  vertical-align: middle;
+}

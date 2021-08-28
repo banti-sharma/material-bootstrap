@@ -1,0 +1,389 @@
+[class^="swatch-"],
+[class*=" swatch-"] {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
+[class^="swatch-"] span,
+[class*=" swatch-"] span {
+  position: absolute;
+  right: 6px;
+  bottom: 10px;
+  left: 6px;
+}
+[class^="swatch-"]:before,
+[class*=" swatch-"]:before {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  border-radius: 2px;
+  content: "";
+}
+[class^="swatch-"]:after,
+[class*=" swatch-"]:after {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: 10px;
+  height: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  user-select: text !important;
+  word-break: break-all;
+}
+.swatch-bg-base-7:before {
+  background: #0e1d33;
+}
+.swatch-bg-base-7:after {
+  content: "#0e1d33";
+}
+.swatch-bg-base-6:before {
+  background: #263043;
+}
+.swatch-bg-base-6:after {
+  content: "#263043";
+}
+.swatch-bg-base-5:before {
+  background: #3e4a5a;
+}
+.swatch-bg-base-5:after {
+  content: "#3e4a5a";
+}
+.swatch-bg-base-4:before {
+  background: #d7d9de;
+}
+.swatch-bg-base-4:after {
+  content: "#d7d9de";
+}
+.swatch-bg-base-3 {
+  color: #3f3e3e;
+}
+.swatch-bg-base-3:before {
+  background: #e6e7e8;
+}
+.swatch-bg-base-3:after {
+  content: "#e6e7e8";
+}
+.swatch-bg-base-2 {
+  color: #3f3e3e;
+}
+.swatch-bg-base-2:before {
+  background: #eff0f2;
+}
+.swatch-bg-base-2:after {
+  content: "#eff0f2";
+}
+.swatch-bg-base-1 {
+  color: #3f3e3e;
+}
+.swatch-bg-base-1:before {
+  background: #fbfbfc;
+}
+.swatch-bg-base-1:after {
+  content: "#fbfbfc";
+}
+.swatch-bg-base-0 {
+  color: #3f3e3e;
+}
+.swatch-bg-base-0:before {
+  background: #fff;
+}
+.swatch-bg-base-0:after {
+  content: "#fff";
+}
+.swatch-notification-confirmation:before {
+  background: #06914d;
+}
+.swatch-notification-confirmation:after {
+  content: "#06914d";
+}
+.swatch-notification-warning {
+  color: #3f3e3e;
+}
+.swatch-notification-warning:before {
+  background: #f9ba3a;
+}
+.swatch-notification-warning:after {
+  content: "#f9ba3a";
+}
+.swatch-notification-alert:before {
+  background: #bf243f;
+}
+.swatch-notification-alert:after {
+  content: "#bf243f";
+}
+.swatch-notification-information:before {
+  background: #3b88cf;
+}
+.swatch-notification-information:after {
+  content: "#3b88cf";
+}
+.swatch-accent-hover:before {
+  background: #298dd8;
+}
+.swatch-accent-hover:after {
+  content: "#298dd8";
+}
+.swatch-accent-selected:before {
+  background: #1974b5;
+}
+.swatch-accent-selected:after {
+  content: "#1974b5";
+}
+.swatch-accent-hover-light {
+  color: #3f3e3e;
+}
+.swatch-accent-hover-light:before {
+  background: #eef6fb;
+}
+.swatch-accent-hover-light:after {
+  content: "#eef6fb";
+}
+.swatch-accent-highlight {
+  color: #3f3e3e;
+}
+.swatch-accent-highlight:before {
+  background: #fefe80;
+}
+.swatch-accent-highlight:after {
+  content: "#fefe80";
+}
+.swatch-chart-target:before {
+  background: #ea6159;
+}
+.swatch-chart-target:after {
+  content: "#ea6159";
+}
+.swatch-chart-value-one:before {
+  background: #2eafaf;
+}
+.swatch-chart-value-one:after {
+  content: "#2eafaf";
+}
+.swatch-chart-value-two:before {
+  background: #a57adc;
+}
+.swatch-chart-value-two:after {
+  content: "#a57adc";
+}
+.swatch-chart-tooltip {
+  color: #3f3e3e;
+}
+.swatch-chart-tooltip:before {
+  background: #fff;
+}
+.swatch-chart-tooltip:after {
+  content: "#fff";
+}
+.swatch-chart-line-chart {
+  color: #3f3e3e;
+}
+.swatch-chart-line-chart:before {
+  background: #fff;
+}
+.swatch-chart-line-chart:after {
+  content: "#fff";
+}
+.swatch-chart-bar-chart {
+  color: #3f3e3e;
+}
+.swatch-chart-bar-chart:before {
+  background: rgba(255, 255, 255, 0.1);
+}
+.swatch-chart-bar-chart:after {
+  content: "rgba(255,255,255,0.1)";
+}
+.swatch-chart-axes-base:before {
+  background: #616b81;
+}
+.swatch-chart-axes-base:after {
+  content: "#616b81";
+}
+.swatch-chart-axes-scales {
+  color: #3f3e3e;
+}
+.swatch-chart-axes-scales:before {
+  background: rgba(97, 107, 129, 0.25);
+}
+.swatch-chart-axes-scales:after {
+  content: "rgba(97,107,129,0.25)";
+}
+.swatch-text-light-primary:before {
+  background: #0f1d31;
+}
+.swatch-text-light-primary:after {
+  content: "#0f1d31";
+}
+.swatch-text-light-secondary:before {
+  background: #6e7784;
+}
+.swatch-text-light-secondary:after {
+  content: "#6e7784";
+}
+.swatch-text-light-body:before {
+  background: #565759;
+}
+.swatch-text-light-body:after {
+  content: "#565759";
+}
+.swatch-text-light-body-focus:before {
+  background: #242426;
+}
+.swatch-text-light-body-focus:after {
+  content: "#242426";
+}
+.swatch-text-light-link:before {
+  background: #1974b5;
+}
+.swatch-text-light-link:after {
+  content: "#1974b5";
+}
+.swatch-text-dark-primary {
+  color: #3f3e3e;
+}
+.swatch-text-dark-primary:before {
+  background: #f0f0f0;
+}
+.swatch-text-dark-primary:after {
+  content: "#f0f0f0";
+}
+.swatch-text-dark-secondary:before {
+  background: #9ca1ad;
+}
+.swatch-text-dark-secondary:after {
+  content: "#9ca1ad";
+}
+.swatch-text-dark-body {
+  color: #3f3e3e;
+}
+.swatch-text-dark-body:before {
+  background: #f0f0f0;
+}
+.swatch-text-dark-body:after {
+  content: "#f0f0f0";
+}
+.swatch-text-dark-body-focus {
+  color: #3f3e3e;
+}
+.swatch-text-dark-body-focus:before {
+  background: #fff;
+}
+.swatch-text-dark-body-focus:after {
+  content: "#fff";
+}
+.swatch-text-dark-link:before {
+  background: #2d9dd6;
+}
+.swatch-text-dark-link:after {
+  content: "#2d9dd6";
+}
+.swatch-form-light-label:before {
+  background: #6e7784;
+}
+.swatch-form-light-label:after {
+  content: "#6e7784";
+}
+.swatch-form-light-hint:before {
+  background: #9a9a9b;
+}
+.swatch-form-light-hint:after {
+  content: "#9a9a9b";
+}
+.swatch-form-light-body:before {
+  background: #565759;
+}
+.swatch-form-light-body:after {
+  content: "#565759";
+}
+.swatch-form-dark-label:before {
+  background: #9ca1ad;
+}
+.swatch-form-dark-label:after {
+  content: "#9ca1ad";
+}
+.swatch-form-dark-hint:before {
+  background: #9ca1ad;
+}
+.swatch-form-dark-hint:after {
+  content: "#9ca1ad";
+}
+.swatch-form-dark-body {
+  color: #3f3e3e;
+}
+.swatch-form-dark-body:before {
+  background: #f0f0f0;
+}
+.swatch-form-dark-body:after {
+  content: "#f0f0f0";
+}
+.swatch-notification-light-type:before {
+  background: #9ca1ad;
+}
+.swatch-notification-light-type:after {
+  content: "#9ca1ad";
+}
+.swatch-notification-light-title:before {
+  background: #0f1d31;
+}
+.swatch-notification-light-title:after {
+  content: "#0f1d31";
+}
+.swatch-notification-light-body:before {
+  background: #565759;
+}
+.swatch-notification-light-body:after {
+  content: "#565759";
+}
+.swatch-grid-light-header {
+  color: #3f3e3e;
+}
+.swatch-grid-light-header:before {
+  background: #f0f0f0;
+}
+.swatch-grid-light-header:after {
+  content: "#f0f0f0";
+}
+.swatch-grid-light-body:before {
+  background: #242426;
+}
+.swatch-grid-light-body:after {
+  content: "#242426";
+}
+.swatch-grid-light-highlight {
+  color: #3f3e3e;
+}
+.swatch-grid-light-highlight:before {
+  background: #fff;
+}
+.swatch-grid-light-highlight:after {
+  content: "#fff";
+}
+.swatch-accent-light-negative:before {
+  background: #a30200;
+}
+.swatch-accent-light-negative:after {
+  content: "#a30200";
+}
+.swatch-accent-light-positive:before {
+  background: #008729;
+}
+.swatch-accent-light-positive:after {
+  content: "#008729";
+}
+.swatch-splitter-bar-active:before {
+  background: #e6bb3c;
+}
+.swatch-splitter-bar-active:after {
+  content: "#e6bb3c";
+}

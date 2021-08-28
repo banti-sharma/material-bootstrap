@@ -1,0 +1,22 @@
+#progress-bar ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+#progress-bar ul li {
+  float: left;
+  color: #b2b1b1;
+  border-bottom: 1px solid #b2b1b1;
+  text-align: center;
+  padding-bottom: 3px;
+  padding-top: 5px;
+  white-space: nowrap;
+  margin-right: 2px;
+}
+.progress-bar-level-selected {
+  color: #fff !important;
+  border-bottom: 1px solid #60b2e9 !important;
+}
+.progress-bar-level-completed {
+  border-bottom: 1px solid #26a224 !important;
+}

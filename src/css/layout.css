@@ -1,0 +1,106 @@
+.ui-layout-container {
+  overflow: visible !important;
+}
+.ui-layout-pane {
+  background: #3e4a5a;
+}
+.layout-child-container,
+.layout-content-container {
+  overflow: hidden;
+}
+.layout-child-container {
+  border: 0;
+}
+.layout-scroll {
+  overflow: auto;
+}
+.layout-hide {
+  display: none;
+}
+.ui-layout-resizer {
+  transition: background 150ms ease-in-out;
+  border-radius: 4px;
+  background: transparent;
+}
+.ui-layout-resizer:active {
+  background: #e6bb3c;
+}
+.ui-layout-resizer-dragging {
+  background: #e6bb3c;
+}
+.ui-layout-resizer-dragging-limit {
+  background: #6e7784;
+}
+.ui-layout-resizer-closed-hover {
+  background: #e6bb3c;
+}
+.ui-layout-resizer-north-sliding-hover {
+  border-bottom-width: 1px;
+}
+.ui-layout-resizer-south-sliding-hover {
+  border-top-width: 1px;
+}
+.ui-layout-resizer-west-sliding-hover {
+  border-right-width: 1px;
+}
+.ui-layout-resizer-east-sliding-hover {
+  border-left-width: 1px;
+}
+.ui-layout-resizer-hover .ui-layout-toggler {
+  transition: all 150ms ease-in-out;
+  border-radius: 4px;
+  background-color: #e6bb3c;
+}
+.ui-layout-toggler-hover,
+.ui-layout-resizer-hover .ui-layout-toggler-hover {
+  border-radius: 4px;
+  background-color: #e6bb3c;
+}
+.ui-layout-resizer-sliding .ui-layout-toggler {
+  display: none;
+}
+.ui-layout-toggler .content {
+  padding-bottom: 0.35ex;
+  width: 100%;
+  color: #666;
+  font-weight: bold;
+}
+.ui-layout-toggler-north-open {
+  cursor: n-resize !important;
+}
+.ui-layout-toggler-north-closed {
+  cursor: s-resize !important;
+}
+.ui-layout-toggler-east-open {
+  cursor: e-resize !important;
+}
+.ui-layout-toggler-east-closed {
+  cursor: w-resize !important;
+}
+.ui-layout-toggler-south-open {
+  cursor: s-resize !important;
+}
+.ui-layout-toggler-south-closed {
+  cursor: n-resize !important;
+}
+.ui-layout-toggler-west-open {
+  cursor: w-resize !important;
+}
+.ui-layout-toggler-west-closed {
+  cursor: e-resize !important;
+}
+.ui-layout-mask {
+  position: absolute !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  opacity: 0 !important;
+  filter: Alpha(Opacity= "0") !important;
+}
+.ui-layout-mask-inside-pane {
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}

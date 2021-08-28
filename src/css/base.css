@@ -1,0 +1,155 @@
+html,
+body,
+button,
+div,
+select,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+input,
+kbd,
+q,
+samp,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  vertical-align: baseline;
+  font-weight: 400;
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+hr {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #bbbbbb;
+}
+* {
+  box-sizing: border-box;
+  cursor: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-drag: none;
+}
+html,
+body { 
+  height: 100%;
+}
+body {
+  font-size: 13px;
+  margin: 0;
+  background: #0e1d33;
+  cursor: default;
+  color:white;
+}
+body ::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+  background: #fff;
+}
+body ::-webkit-scrollbar-track {
+  border: 3px solid #fff;
+  border-radius: 5px;
+  background: #d7d9de;
+}
+body ::-webkit-scrollbar-thumb {
+  border: 3px solid transparent;
+  border-radius: 5px;
+  box-shadow: inset 10000px 10000px 1px #6e7784;
+}
+body ::-webkit-scrollbar-thumb:hover {
+  box-shadow: inset 10000px 10000px 1px #298dd8;
+}
+body ::-webkit-scrollbar-thumb:active {
+  box-shadow: inset 10000px 10000px 1px #1974b5;
+}
+body ::-webkit-scrollbar-corner {
+  border-radius: 0 0 2px 0;
+  background: white;
+}
+
+a {
+  color: #1974b5;
+  text-decoration: none;
+  cursor: pointer;
+}
